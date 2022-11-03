@@ -51,9 +51,18 @@ Before running the application it is necessary to install the following dependen
 
 To use the application you will need to clone the repo into your machine, navigate on terminal into it and open your [Jupyter Lab](https://github.com/jupyter/notebook) to run the file **trading_bot.ipynb**. 
 
-Bellow you can find a brief summary of the data collected through the analysis so we can see the difference between Imbalanced report for the Original Data and the same report for the Resampled Data.
+---
 
-![Imbalanced Report Comparison](Snippets/imbalanced_report_comparison.png) 
+##Report
+
+Bellow you can find a brief summary of the data collected through the analysis so we can compare the results of the baseline and backtest.
+
+![Predictions Dataframe - Baseline](Resources/predictions_df_baseline.png) | ![Predictions Dataframe - Backtest](Resources/predictions_df_backtest.png)
+
+Bellow you can find a brief summary of the data collected through the analysis so we can compare the results of the baseline and backtest after re running the the bot and changing the data frame to two months instead of three.
+
+![Predictions Dataframe - Baseline (2_months)](Resources/predictions_df_baseline_(2_months).png) | ![Predictions Dataframe - Backtest](Resources/predictions_df_backtest_(2_months).png)
+
 
 ---
 
